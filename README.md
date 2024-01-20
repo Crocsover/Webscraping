@@ -6,37 +6,37 @@ This Python script is designed for web scraping hotel information from specified
 # Functions
 extract_hotel_info(url)
 
--Extracts hotel information from a given URL.
+- Extracts hotel information from a given URL.
 
--Returns a Pandas DataFrame containing the extracted data.
+- Returns a Pandas DataFrame containing the extracted data.
 
 extract_urls_from_json(json_string)
 
--Extracts hotel URLs from a JSON string.
+- Extracts hotel URLs from a JSON string.
 
--Returns a list of URLs.
+- Returns a list of URLs.
 
 append_new_urls(existing_urls, additional_urls)
 
--Combines existing URLs with new URLs.
+- Combines existing URLs with new URLs.
 
--Returns an updated list of URLs.
+- Returns an updated list of URLs.
 
 run_all_and_display(json_string, existing_urls=None)
 
--Orchestrates the entire process:
+- Orchestrates the entire process:
 
--Extracts URLs from the JSON.
+- Extracts URLs from the JSON.
 
--Appends new URLs to existing ones.
+- Appends new URLs to existing ones.
 
--Iterates through each URL to extract hotel information.
+- Iterates through each URL to extract hotel information.
 
--Concatenates individual DataFrames into a single DataFrame.
+- Concatenates individual DataFrames into a single DataFrame.
 
--Saves the updated DataFrame to a CSV file (output.csv).
+- Saves the updated DataFrame to a CSV file (output.csv).
 
--Prints a success message.
+- Prints a success message.
 
 
 # Execution Example
