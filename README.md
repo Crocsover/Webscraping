@@ -2,6 +2,14 @@
 ## Overview
 This Python script is designed for web scraping hotel information from specified URLs. It utilizes the requests library for making HTTP requests, BeautifulSoup for parsing HTML content, and Pandas for organizing the extracted data into a DataFrame. The script is tailored to extract details such as hotel name, location, amenities, price, available rooms, check-in/out information, and customer reviews.
 
+# Prerequisites:
+I am using anaconda software to scrape the data. The prerequisites to scrape the data are:
+
+- Python 3
+- BeautifulSoup
+- Json
+- Requests
+- Pandas
 
 # Functions
 extract_hotel_info(url)
